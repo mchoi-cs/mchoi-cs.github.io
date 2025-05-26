@@ -140,7 +140,7 @@ ul.steps li::before {
   left: -2px;
   width: 16px;
   height: 16px;
-  background-color: #7b7be3; /* Blue dot */
+  background: linear-gradient(to bottom, #bac6ff, #7b7be3); /* Gradient line */
   border-radius: 50%;
   border: 3px solid white;
   box-shadow: 0 0 0 2px #7b7be3;
