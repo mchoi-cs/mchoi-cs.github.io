@@ -95,6 +95,12 @@
   }
 }
 
+
+.highlight{
+  color: #879bfc;
+  font-weight: bold; /* if you want bold too */
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
