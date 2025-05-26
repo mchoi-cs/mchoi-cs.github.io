@@ -1,0 +1,553 @@
+
+<!-- 
+
+1) java button doesn't work (artwork), menu doesn't collapse, pages don't redirect to other pages
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- for icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Cuprum:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cuprum:wght@700&display=swap" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
+
+
+<!-- orienta font -->
+
+
+<!-- carme -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carme&family=Cuprum:wght@700&family=Orienta&display=swap" rel="stylesheet">
+
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+      <title> Michelle Choi Portfolio site </title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container d-flex justify-content-between align-items-center">
+     
+        <a class="navbar-brand" href="#">MICHELLE CHOI</a>
+
+
+
+
+
+        <!-- Nav bar with scroll to heading (href = #heading) -->
+        <div class="d-flex align-items-center">
+            <ul class="navbar-nav text-uppercase flex-row">
+              
+                <li class="nav-item px-2"><a class="nav-link" href="#about">ABOUT</a></li>
+
+                <li class="nav-item px-2"><a class="nav-link" href="#work">WORKFLOW</a></li>
+
+                <!-- not needed for this assignment -->
+                <!-- <li class="nav-item px-2"><a class="nav-link" href="#experience">Experience</a></li> -->
+                <li class="nav-item px-2"><a class="nav-link" href="#projects">PROJECTS</a></li>
+                <!-- not needed for this assignment -->
+                <!-- <li class="nav-item px-2"><a class="nav-link" href="#contact">CONTACT</a></li> -->
+
+               
+                
+            </ul>
+            <!-- Gear icon at the end
+            <a class="nav-link px-2" href="#settings">
+                <i class="fas fa-cog"></i>
+            </a> -->
+        </div>
+    </div>
+</nav>
+
+
+
+    
+        <!-- Masthead-->
+        
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading" id = "text2">meow</div>
+                <div class="masthead-heading text-uppercase" id = "text" >meow Choi</div>
+                <!-- -------- -->
+               
+           <div>
+            <div>
+                <div>
+                    <div type="number" name="speed" id="speed" value="1" min="1" max="5" step="1">
+                </div>
+            
+            </div>
+            
+
+            
+                <script src="script.js"></script>
+    <!-- -------- -->
+                <!-year and medium.- how do i change the font?? -->
+                <!-- THIS IS THE BUTTON! -->
+                <a class="btn btn-primary btn-xl text-uppercase" href="#projects" id="scrollButton" >Projects</a>
+
+                <!-- make Artworksit scroll -->
+                <!-- why doesn't it scroll down anymore -->
+            </div>
+        </header>
+        <!-- Services-->
+        <!-- <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">E-Commerce</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Responsive Design</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Web Security</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        
+
+<!-- About -->
+<section class="page-section bg-dark text-white" id="about">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Text Column -->
+            <div class="col-lg-8">
+                <h2 class="section-heading text-uppercase">About Me</h2>
+                <p class="text-muted">
+                    Hello, I'm Michelle!  I am currently pursuing my B.Sc. in Computer Science (Honours with a Data Science option) at the University of Ottawa.
+                    I'm passionate about data science, machine learning, fullstack development, and system design. I'm also part of the CO-OP program and have hands-on experience in both frontend and backend technologies.
+                    Outside of my academics and career-based pursuits, I'm the vice president of my university's powerlifting club, I like to 3D model in Blender and Nomad, and I like to draw using digital and traditional mediums.
+                </p>
+            </div>
+            <!-- Image Column -->
+            <div class="col-lg-4 d-flex justify-content-center">
+                <img 
+                    src="assets/img/choim.jpg" 
+                    alt="Michelle's Profile Photo"
+                    class="img-fluid rounded shadow"
+                    style="max-width: 220px;"
+                />
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<br>
+<br>
+<div class="container">
+    <h2 id="work">How I work</h1>
+    <ul class="steps">
+      <li>
+        <strong><i class="fa-solid fa-magnifying-glass"  style="margin-right: 8px;"></i> Understand needs</strong>
+        
+        <p>In software engineering, I understand that the specifications of a project follow from a business problem. Thus, when I am performing the main activities of the requirements engineering process, I will determine what the functional and nonfunctional requirements are, assess what is feasible given the business problem and existing technologies, and then identify both system and user-based requirements.</p>
+      </li>
+      <li>
+    
+        <strong><i class="fa-solid fa-clipboard-list" style="margin-right: 8px;"></i> Plan a solution</strong>
+        <p>Here, I think about what technologies, programming paradigms, and libraries the project requires. I will reflect on my relevant coursework, past projects, and work experience in order to begin planning the solution. I may produce UML diagrams, data flow diagrams, and other state-based diagrams to determine the behavior of the product.</p>
+      </li>
+      <li>
+        <strong><i class="fa-solid fa-code " style="margin-right: 8px;"></i> Implement the solution</strong>
+        <p>I will then implement the solution. Depending on what paradigms are involved, this will look different from project to project. If I am working with object-oriented programming principles, I will begin by implementing classes at the top of the hierarchy and then implementing their subclasses, testing their functionalities as I go along or leaving unimplemented classes as stubs. If I am working on a project that uses concurrency, I would approach the problem by identifying independent tasks that can be run in parallel and managing shared resources carefully using synchronization techniques.</p>
+      </li>
+      <li>
+        <strong><i class="fa-solid fa-vial  " style="margin-right: 8px;"></i> Testing and maintainability</strong>
+        <p>During the implementation process is typically when I write test cases. As I am designing classes, that is when I can understand how to produce equivalence classes for the most effective test case generation. I will review my code and identify any redundant functions or interdependencies that could hamper scalability.</p>
+      </li>
+      <li>
+        <strong><i class="fa-solid fa-book " style="margin-right: 8px;"></i> Documentation</strong>
+        <p>Again, as I go along with implementing the solution, I will make notes of any bugs or errors and include them in the documentation. I typically produce a guide on how to use the software while implementing the solution, but if any large changes are made, I will refine the instructions at the end of the project.</p>
+      </li>
+    </ul>
+  </div>
+
+
+
+
+
+
+<br>
+
+
+<div class="container py-5">
+    <h1 id="projects"> Projects </h1>
+    <p class="text-muted mb-4">
+        Displayed below are my projects for SEG3125, developed during my Summer 2025 semester. 
+        Click one of the projects to visit their pages, or just read their descriptions listed here. 
+        Each description includes an overview of the project's implementation, relevant technologies, and purpose.
+    </p>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-4">
+
+
+            <!-- first project: Portfolio -->
+            <div class="col">
+                <a href="https://choi-m.github.io" class="text-decoration-none text-dark">
+                    <div class="p-3 border rounded text-center">
+                        <img src="assets/img/preview1.png" alt="Project Preview" class="img-fluid mb-2" style="max-height: 100px;">
+                        <h5 class="text-uppercase mt-2">Personal portfolio</h5>
+
+                    </div>
+                </a>
+            </div>
+
+        <!-- Project 1: Coaching Inquiry (barbell) -->
+        <div class="col">
+            <!-- REPLACE LOGOS WITH SCREENSHOTS OF WEBPAGES FOR PROJECT LATER! -->
+            <a href="case-study1.html" class="text-decoration-none text-dark">
+                <div class="p-3 border rounded text-center">
+                    <i class="fa-solid fa-dumbbell fa-2x mb-2"></i>
+                    <h5 class="text-uppercase mt-2">Coaching Inquiry</h5>
+                    <p class="text-muted">Coming Soon</p>
+                </div>
+            </a>
+        </div>
+
+        <!-- Project 2: Game (sword) -->
+        <div class="col">
+            <a href="case-study2.html" class="text-decoration-none text-dark">
+                <div class="p-3 border rounded text-center">
+                    <i class="	fa-solid fa-xmark  fa-2x mb-2"></i>
+                    <h5 class="text-uppercase mt-2">Game Project</h5>
+                    <p class="text-muted">Coming Soon</p>
+                </div>
+            </a>
+        </div>
+
+        <!-- Project 3: E-Commerce (money) -->
+        <div class="col">
+            <a href="case-study3.html" class="text-decoration-none text-dark">
+                <div class="p-3 border rounded text-center">
+                    <i class="fa-solid fa-sack-dollar fa-2x mb-2"></i>
+                    <h5 class="text-uppercase mt-2">E-Commerce</h5>
+                    <p class="text-muted">Coming Soon</p>
+                </div>
+            </a>
+        </div>
+
+        <!-- Project 4: Analytics (chart) -->
+        <div class="col">
+            <a href="case-study4.html" class="text-decoration-none text-dark">
+                <div class="p-3 border rounded text-center">
+                    <i class="fa-solid fa-chart-line fa-2x mb-2"></i>
+                    <h5 class="text-uppercase mt-2">1RM Predictor</h5>
+                    <p class="text-muted">Coming Soon</p>
+                    <p> note, this is for the data analytics predictor; The project will be a 1rm calculator using data from compound lifts.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+                
+            
+
+
+
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Digital Media</h2>
+                                    <p class="item-intro text-muted"> Data science projects; given a large XML file run linear regression on it to do stuff.</p>
+
+                                    <img class="img-fluid d-block mx-auto" src="images for site/Seafoam.jpeg" />
+                                    <!-- <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p> -->
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Title:</strong>
+                                            Seafoam
+
+                                            </li>
+                                            <li>
+                                                <strong>Year:</strong>
+                                                2023
+
+                                            
+                                            
+                                        </li>
+                                       
+                                    </ul>
+<!-- PORTFOLIO ITEM -->
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/Heritage.jpeg" alt="..." />
+
+                                   <ul class="list-inline">
+                                    <li>
+                                        <strong>Title:</strong>
+                                        Heritage
+
+                                        </li>
+                                        <li>
+                                        <strong>Year:</strong>
+                                        2023
+                                    </li>
+                                
+                                </ul>
+
+                                <!-- ITEM -->
+                                <img class="img-fluid d-block mx-auto" src="assets/img/selfportrait.jpeg"..." />
+
+                                <ul class="list-inline">
+            
+                                     <li>
+                                     <strong>Year:</strong>
+                                     2023
+                                 </li>
+                             
+                             </ul>
+
+
+
+
+                                
+<!-- PORTFOLIO ITEM -->
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Explore
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Graphic Design
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Finish
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Identity
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Lines
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Branding
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Southwest
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Website Design
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Window
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Photography
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
