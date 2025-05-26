@@ -121,12 +121,11 @@ ul.steps::before {
   content: "";
   position: absolute;
   top: 0;
+  bottom: 0; 
   left: 14px;
   width: 4px;
-  height: 100%;
-  background-color: #7b7be3; /* The continuous vertical line */
+  background: linear-gradient(to bottom, #c8d7fc, #4f4fac); /* Gradient line */
 }
-
 ul.steps li {
   position: relative;
   margin-bottom: 40px;
