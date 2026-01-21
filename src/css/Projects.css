@@ -1,0 +1,48 @@
+/* ===== PROJECTS SECTION ===== */
+.projects-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-container {
+  padding-top: 80px;
+  background-color: #ffffff;
+}
+
+.projects-container h2 {
+  color: rgb(0, 0, 0);
+}
+
+.proj-right {
+  width: 220px;
+  flex: 0 0 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.proj-date {
+  font-size: 18px;
+  opacity: 0.75;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.proj-doodleWrap {
+  width: 300px;
+  max-width: 100%;
+}
+
+.proj-doodle {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media screen and (max-width: 560px) {
+  .projects-container {
+    padding-top: 40px;
+  }
+}

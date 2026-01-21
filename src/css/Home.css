@@ -1,0 +1,145 @@
+/* -------------- home -------------- */
+.home-container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+#home-component {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.home-section {
+  justify-content: center;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 213px;
+  margin-right: 5vh;
+  max-width: 600px;
+  min-height: 100vh;
+  min-width: 300px;
+  transition: margin 0.5s;
+  color: black;
+  position: relative;
+  z-index: 2;
+}
+
+.home-section p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.home-section h1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 32px;
+}
+
+@media screen and (min-width: 1500px) {
+  .home-section {
+    margin-right: 10vh;
+    margin-left: 20vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .home-section {
+    margin-right: 10vh;
+  }
+}
+
+@media screen and (max-width: 976px) {
+  .home-section {
+    max-width: 75rem;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 50px;
+    min-width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-section {
+    max-width: 75rem;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 55px;
+    margin-right: 20px;
+    min-width: 200px;
+  }
+
+  .home-section p {
+    font-size: 17px;
+  }
+  
+  .character {
+    width: 40.57vw;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .home-section {
+    max-width: 75rem;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 0px;
+    min-width: 200px;
+  }
+
+  .home-section p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .character {
+    width: 30vw;
+  }
+}
+
+.cv-button {
+  border-radius: 10px;
+  width: 20%;
+  min-width: 150px;
+  padding: 18px 10px;
+  background-color: black;
+  color: white;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+.cv-button:hover {
+  background-color: rgb(93, 121, 219);
+  color: black;
+}
+
+.home-img-container {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.character {
+  width: 45vw;
+  max-width: 600px;
+  height: auto;
+  transform: scale(1.0);
+}
+

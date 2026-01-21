@@ -1,0 +1,44 @@
+/* -------------- navbar css -------------- */
+.active {
+  position: fixed;
+  top: 0px;
+  z-index: 99;
+  transition: top 0.3s;
+  background: #ffffff;
+}
+
+.hidden {
+  position: fixed;
+  top: -10rem;
+  transform: translateY(20px);
+}
+
+.navtext {
+  text-align: left;
+  display: inline-block;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.navbar-wrapper {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.navbar-items {
+  margin: 20px 15px;
+  padding: 15px;
+  justify-content: center;
+  display: flex;
+}
+
+.navbar-image {
+  margin: 20px 15px;
+}
+
+.logo {
+  width: 50px;
+  max-width: 50px;
+}
