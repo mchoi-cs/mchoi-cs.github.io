@@ -11,9 +11,9 @@ export const About = () => {
               Hi, I'm Michelle. I'm a fourth-year Computer Science student at the University of Ottawa,
               graduating in Spring 2027.
               <br></br>  
-              I'm currently on a 12-month work term working in DevOps
-              for embedded systems. I value curiosity, initiative, and clarity, and I enjoy
-              presenting ideas and talking through systems in reviews and demos. 
+              I'm currently on a 12-month work term working at Ford.
+              {/* for embedded systems. I value curiosity, initiative, and clarity, and I enjoy
+              presenting ideas and talking through systems in reviews and demos.  */}
               <br></br>
               {/* Outside of work, I enjoy playing chess and I've been learning to draw. You can see some of my art in the{" "}
               <a href="#gallery-component" className="inline-link">
