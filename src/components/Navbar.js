@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import { Link } from "react-scroll";
 import "../css/Navbar.css";
 
@@ -6,7 +6,7 @@ export const Navbar = () => {
   const [show, setShow] = useState(true);
   const [prevScrollY, setPrevScrollY] = useState(0);
 
-  const onScroll = () => {
+  const onScroll = useCallback(() => {
     const curScrollY = window.scrollY;
 
     if (curScrollY > prevScrollY + 20) {
@@ -16,13 +16,13 @@ export const Navbar = () => {
     }
 
     setPrevScrollY(curScrollY);
-  };
+  }, [prevScrollY]);
 
   useEffect(() => {
     window.addEventListener("scroll", onScroll);
 
     return () => window.removeEventListener("scroll", onScroll);
-  }, [prevScrollY]);
+  }, [onScroll]);
 
   return (
     <div className="navbar-component">
@@ -52,12 +52,6 @@ export const Navbar = () => {
             {" "}
             <Link smooth to="projects-component">
               <p>Projects</p>
-            </Link>{" "}
-          </div>
-          <div className="navtext">
-            {" "}
-            <Link smooth to="contact-component">
-              <p>Contact</p>
             </Link>{" "}
           </div>
         </ol>

@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "michelle's site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,7 +36,7 @@
       "last 1 safari version"
     ]
   },
-  "description": "Made with react",
+  "description": "it's a react site",
   "main": "index.js",
   "keywords": [],
   "author": "",

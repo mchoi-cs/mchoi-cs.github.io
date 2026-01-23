@@ -55,9 +55,8 @@ export const Gallery = () => {
         { src: "/assets/art1.png", alt: "digital 3" }
       ],
       "traditional media": [
-        { src: "/assets/chess1.png", alt: "traditional 1" }
-        // { src: "/assets/chess1.png", alt: "traditional 2" },
-        // { src: "/assets/chess1.png", alt: "traditional 3" },
+        { src: "/assets/birdie.png", alt: "traditional 1" },
+        { src: "/assets/chess1.png", alt: "traditional 2" }
       ],
       sketches: [
         // { src: "/assets/chess1.png", alt: "sketch 1" },
