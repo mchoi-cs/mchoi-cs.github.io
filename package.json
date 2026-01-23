@@ -1,6 +1,6 @@
 {
-  "name": "michelle's site",
-  "version": "0.1.0",
+  "name": "michelles-site",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
     "web-vitals": "^2.1.4"
   },
@@ -40,8 +40,5 @@
   "main": "index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "sharp": "^0.34.5"
-  }
+  "license": "ISC"
 }
