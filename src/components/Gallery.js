@@ -50,13 +50,13 @@ export const Gallery = () => {
   const data = useMemo(
     () => ({
       "digital media": [
-        { src: "/assets/art2.png", alt: "digital 1" },
-        { src: "/assets/art3.png", alt: "digital 2" },
-        { src: "/assets/art1.png", alt: "digital 3" }
+        { src: "/assets/art2.jpg", alt: "digital 1" },
+        { src: "/assets/art3.jpg", alt: "digital 2" },
+        { src: "/assets/art1.jpg", alt: "digital 3" }
       ],
       "traditional media": [
-        { src: "/assets/birdie.png", alt: "traditional 1" },
-        { src: "/assets/chess1.png", alt: "traditional 2" }
+        { src: "/assets/birdie.jpg", alt: "traditional 1" },
+        { src: "/assets/chess1.jpg", alt: "traditional 2" }
       ],
       sketches: [
         // { src: "/assets/chess1.png", alt: "sketch 1" },

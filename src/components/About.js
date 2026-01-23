@@ -23,7 +23,7 @@ export const About = () => {
 
             <div className="about-drawingWrap">
               <img
-                src="/assets/Dino.png"   
+                src="/assets/Dino.jpg"   
                 alt="Dino drawing"
                 className="about-drawing"
               />

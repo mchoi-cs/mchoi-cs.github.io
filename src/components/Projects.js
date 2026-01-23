@@ -61,7 +61,7 @@ export const Projects = () => {
             technologies="python, pytorch, docker, aws"
             link=" https://github.com/choiIsabelle/GoodKnight"
             date="2025"
-            imgSrc="/assets/chess1.png"
+            imgSrc="/assets/chess1.jpg"
             imgAlt="chess doodle"
           />
 
