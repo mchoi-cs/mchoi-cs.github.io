@@ -15,10 +15,10 @@ export const About = () => {
               for embedded systems. I value curiosity, initiative, and clarity, and I enjoy
               presenting ideas and talking through systems in reviews and demos. 
               <br></br>
-              Outside of work, I enjoy playing chess and I've been learning to draw. You can see some of my art in the{" "}
+              {/* Outside of work, I enjoy playing chess and I've been learning to draw. You can see some of my art in the{" "}
               <a href="#gallery-component" className="inline-link">
                 gallery
-              </a>.
+              </a>. */}
             </p>
 
             <div className="about-drawingWrap">
