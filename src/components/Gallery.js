@@ -53,29 +53,29 @@ export const Gallery = () => {
         { 
           src: "/assets/art2.jpg", 
           alt: "digital 1",
-          caption: "Digital Art #1 • Digital • 2024 • Exploring color and composition through digital painting"
+          caption: "Self portrait • Procreate • 2023"
         },
         { 
           src: "/assets/art3.jpg", 
           alt: "digital 2",
-          caption: "Digital Art #2 • Digital • 2024 • Abstract digital illustration"
+          caption: "Foal • Procreate • 2023"
         },
         { 
           src: "/assets/art1.jpg", 
           alt: "digital 3",
-          caption: "Digital Art #3 • Digital • 2024 • Digital concept art"
+          caption: "Self Portrait • Procreate • 2023"
         }
       ],
       "traditional media": [
         { 
           src: "/assets/birdie.jpg", 
           alt: "traditional 1",
-          caption: "Birdie • Watercolor on Paper • 2023 • A cheerful character illustration"
+          caption: "Birdie • Ink on Paper • 2025 • For my landing page"
         },
         { 
           src: "/assets/chess1.jpg", 
           alt: "traditional 2",
-          caption: "Chess Study • Ink • 2024 • Line work exploring chess pieces"
+          caption: "GoodKnight logo • Ink • 2025    "
         }
       ],
       sketches: [
