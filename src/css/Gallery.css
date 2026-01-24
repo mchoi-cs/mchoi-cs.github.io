@@ -92,12 +92,17 @@
 
 .gallery-caption {
   margin-top: 16px;
-  font-size: 14px;
+  padding: 14px 20px;
+  font-size: 15px;
   line-height: 1.6;
-  opacity: 0.8;
   text-align: center;
   letter-spacing: 0.3px;
-  color: inherit;
+  color: #222;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
 }
 
 .gallery-close {
