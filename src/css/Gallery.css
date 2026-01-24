@@ -91,9 +91,13 @@
 }
 
 .gallery-caption {
-  margin-top: 10px;
+  margin-top: 16px;
   font-size: 14px;
-  opacity: 0.85;
+  line-height: 1.6;
+  opacity: 0.8;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: inherit;
 }
 
 .gallery-close {
