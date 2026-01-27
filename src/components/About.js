@@ -31,12 +31,13 @@ export const About = () => {
           </div>
 
           <div className="about-right">
-            {/* <div className="about-photoWrap">
+            <div className="about-photoWrap">
               <img
-                src="/assets/myphoto.jpeg"
+                src="/assets/dino2.png"
+                alt="Dino 2 drawing"
                 className="about-photo"
-              /> */}
-            {/* </div> */}
+              />
+            </div>
           </div>
         </div>
       </section>
