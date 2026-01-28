@@ -64,9 +64,19 @@ export const Projects = () => {
             imgSrc="/assets/chess1.jpg"
             imgAlt="chess doodle"
           />
-
-          <ProjectItem
-            title="TokenTalk @ uOttawa Hack"
+             <ProjectItem
+    
+            title="BooBooBuddy @ ConuHacks X"
+            blurb="Winner of Dialogue's challenge to triage healthcare conditions in natural conversation and use location and voice services to set-up an appointment."
+            technologies="React, Node.js/express, OpenRouter API, Twilio API, GooglePlaces API, Prisma/SQLite"
+            link="https://github.com/mchoi-cs/BooBooBuddy"
+            date="2026"
+            imgSrc="/assets/booboo.png"
+            
+            // imgAlt="TokenTalk project"
+          />
+  <ProjectItem
+               title="TokenTalk @ uOttawa Hack"
             blurb="analyze LLM's ability to retain context windows and semantics in translations of Romantic languages."
             technologies="React, Node.js/express, OpenRouter API"
             link=""
