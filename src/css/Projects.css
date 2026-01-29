@@ -41,8 +41,28 @@
   display: block;
 }
 
-@media screen and (max-width: 560px) {
+.projects-redirect {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.85;
+}
+
+@media screen and (max-width: 720px) {
   .projects-container {
     padding-top: 40px;
+  }
+
+  .proj-right {
+    width: 120px;
+    flex: 0 0 120px;
+  }
+
+  .proj-doodleWrap {
+    width: 100px;
+  }
+
+  .proj-date {
+    font-size: 14px;
   }
 }

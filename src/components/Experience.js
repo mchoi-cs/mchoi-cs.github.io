@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/About.css";
 
-const ExperienceItem = ({ company, roleLine, desc, website, date, imgSrc, imgAlt }) => {
+const ExperienceItem = ({ company, roleLine, desc, technologies, website, date, imgSrc, imgAlt }) => {
   const displayUrl = website ? website.replace(/^https?:\/\//, "") : "";
 
   return (
@@ -11,6 +11,12 @@ const ExperienceItem = ({ company, roleLine, desc, website, date, imgSrc, imgAlt
         <p className="exp-role">{roleLine}</p>
 
         {desc ? <p className="exp-desc">{desc}</p> : null}
+
+        {technologies ? (
+          <p className="project-tech">
+            <span className="project-tech-label">technologies:</span> {technologies}
+          </p>
+        ) : null}
 
         {website ? (
           <a className="exp-link" href={website} target="_blank" rel="noreferrer">
@@ -23,7 +29,13 @@ const ExperienceItem = ({ company, roleLine, desc, website, date, imgSrc, imgAlt
         <div className="exp-date">{date}</div>
 
         <div className="exp-doodleWrap">
-          <img className="exp-doodle" src={imgSrc} alt={imgAlt || ""} loading="lazy" />
+          {website ? (
+            <a href={website} target="_blank" rel="noreferrer">
+              <img className="exp-doodle" src={imgSrc} alt={imgAlt || ""} loading="lazy" />
+            </a>
+          ) : (
+            <img className="exp-doodle" src={imgSrc} alt={imgAlt || ""} loading="lazy" />
+          )}
         </div>
       </div>
     </article>
@@ -41,15 +53,17 @@ export const Experience = () => {
             company="Ford"
             roleLine="DevOps"
             desc="Embedded pipeline"
+            technologies="Jenkins, Docker, Python, Bash"
+            website="https://www.ford.com"
             date="September 2025 - August 2026"
             imgSrc="/assets/car.jpeg"
             imgAlt="doodle"
           />
 
-          <ExperienceItem
+          {/* <ExperienceItem
             company="Government of Canada"
             date="January 2025 - April 2025"
-          />
+          /> */}
         </div>
       </section>
     </div>

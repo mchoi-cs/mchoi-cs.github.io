@@ -187,7 +187,7 @@ h3, .subsection-heading {
 }
 
 .about-drawing {
-  width: min(550px, 100%);
+  width: min(520px, 100%);
   height: auto;
   display: block;
   opacity: 0.9;
@@ -204,30 +204,57 @@ h3, .subsection-heading {
 
 /* ===== MOBILE RESPONSIVENESS ===== */
 @media (max-width: 720px) {
+  .section-container {
+    padding: 20px 16px;
+  }
+
   .exp-item {
-    flex-direction: column;
+    flex-direction: row;
+    gap: 16px;
   }
 
   .exp-right {
-    width: 100%;
-    flex: none;
-    align-items: flex-start;
+    width: 120px;
+    flex: 0 0 120px;
+    align-items: flex-end;
   }
 
   .exp-doodleWrap {
-    width: 180px;
+    width: 100px;
+  }
+
+  .exp-date {
+    font-size: 14px;
+  }
+
+  .exp-company {
+    font-size: 16px;
+  }
+
+  .exp-role, .exp-desc {
+    font-size: 14px;
   }
 
   .about-row {
-    flex-direction: column;
+    flex-direction: row;
+    gap: 40px;
   }
 
   .about-right {
-    width: 100%;
-    justify-content: flex-start;
+    width: 150px;
+    flex: 0 0 150px;
+    justify-content: flex-end;
   }
 
   .about-photoWrap {
-    width: 160px;
+    width: 100%;
+  }
+
+  .about-text {
+    font-size: 16px;
+  }
+
+  .about-drawing {
+    width: min(400px, 100%);
   }
 }
