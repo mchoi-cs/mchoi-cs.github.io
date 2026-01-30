@@ -13,7 +13,14 @@ export const About = () => {
               graduating in Spring 2027.
               <br></br>  
               I'm currently on a 12-month work term working at Ford for embedded systems. I value curiosity, initiative, and clarity, and I enjoy
-              presenting ideas and talking through systems in reviews and demos. 
+              presenting ideas and talking through systems in reviews and demos. Check out my{" "}
+              <Link to="experience-component" smooth duration={500} className="inline-link">
+                experience
+              </Link>{" "}
+              and{" "}
+              <Link to="projects-component" smooth duration={500} className="inline-link">
+                projects
+              </Link>.
               <br></br>
               Outside of work, I do hackathons, powerlift, and I've been learning to draw. You can see some of my art in the{" "}
               <Link to="gallery-component" smooth duration={500} className="inline-link">
