@@ -67,6 +67,17 @@ export const Gallery = () => {
         }
       ],
       "traditional media": [
+        
+        //   { 
+        //   src: "/assets/portrait.jpeg", 
+        //   alt: "traditional 2",
+        //   caption: "2022   "
+        // },
+        { 
+          src: "/assets/collection.jpeg", 
+          alt: "traditional 4",
+          caption: "2022   "
+        },
         { 
           src: "/assets/birdie.jpg", 
           alt: "traditional 1",
@@ -74,12 +85,13 @@ export const Gallery = () => {
         },
         { 
           src: "/assets/chess1.jpg", 
-          alt: "traditional 2",
+          alt: "traditional 3",
           caption: "GoodKnight logo • Ink • 2025    "
         }
+        
       ],
       sketches: [
-        // { src: "/assets/chess1.png", alt: "sketch 1" },
+        // { src: "/assets/coraline.png", alt: "sketch 1" },
         // { src: "/assets/chess1.png", alt: "sketch 2" },
         // { src: "/assets/chess1.png", alt: "sketch 3" },
         // { src: "/assets/chess1.png", alt: "sketch 4" },
