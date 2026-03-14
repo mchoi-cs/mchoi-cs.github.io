@@ -107,15 +107,6 @@ export const Projects = () => {
             // imgSrc="/assets/chess1.png"
             // imgAlt="TokenTalk project"
           />
-           <ProjectItem
-               title="Raspberry NAS demo"
-            blurb="(WIP) setting up an artifactory pipeline using raspberry nas for storing and sorting reference images for art workflow"
-            technologies="raspberry pi os"
-            link=""
-            date="2026"
-            // imgSrc="/assets/chess1.png"
-            // imgAlt="TokenTalk project"
-          />
         </div>
 
         {/* <p className="projects-redirect">
