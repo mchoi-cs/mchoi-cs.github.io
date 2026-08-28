@@ -5,7 +5,6 @@ import { About } from "./components/About";
 import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
 // import { Extracurriculars } from "./components/Extracurriculars";
-import { Gallery } from "./components/Gallery";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
       <Experience />
       <Projects />
       {/* <Extracurriculars /> */}
-      <Gallery />
     </div>
   );
 }

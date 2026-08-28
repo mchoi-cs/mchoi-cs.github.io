@@ -54,12 +54,6 @@ export const Navbar = () => {
               <p>Projects</p>
             </Link>{" "}
           </div>
-          <div className="navtext">
-            {" "}
-            <Link smooth to="gallery-component">
-              <p>Gallery</p>
-            </Link>
-          </div>
         </ol>
       </div>
     </div>

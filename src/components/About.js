@@ -22,10 +22,7 @@ export const About = () => {
                 projects
               </Link>.
               <br></br>
-              Outside of work, I do hackathons, powerlift, and I've been learning to draw. You can see some of my art in the{" "}
-              <Link to="gallery-component" smooth duration={500} className="inline-link">
-                gallery
-              </Link>.
+              Outside of work, I do hackathons, powerlift, and I've been learning to draw.
             </p>
 
             <div className="about-drawingWrap">
