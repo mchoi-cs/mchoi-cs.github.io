@@ -28,15 +28,17 @@ const ExperienceItem = ({ company, roleLine, desc, technologies, website, date, 
       <div className="exp-right">
         <div className="exp-date">{date}</div>
 
-        <div className="exp-doodleWrap">
-          {website ? (
-            <a href={website} target="_blank" rel="noreferrer">
+        {imgSrc ? (
+          <div className="exp-doodleWrap">
+            {website ? (
+              <a href={website} target="_blank" rel="noreferrer">
+                <img className="exp-doodle" src={imgSrc} alt={imgAlt || ""} loading="lazy" />
+              </a>
+            ) : (
               <img className="exp-doodle" src={imgSrc} alt={imgAlt || ""} loading="lazy" />
-            </a>
-          ) : (
-            <img className="exp-doodle" src={imgSrc} alt={imgAlt || ""} loading="lazy" />
-          )}
-        </div>
+            )}
+          </div>
+        ) : null}
       </div>
     </article>
   );
@@ -49,6 +51,15 @@ export const Experience = () => {
         <h2>Experience</h2>
 
         <div className="experience-list">
+          <ExperienceItem
+            company="Ericsson"
+            roleLine="Software Engineering Intern"
+            desc="Cloud RAN Layer 1"
+            technologies="C++"
+            website="https://www.ericsson.com"
+            date="2026 - Present"
+          />
+
           <ExperienceItem
             company="Ford"
             roleLine="DevOps"
