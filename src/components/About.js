@@ -10,9 +10,9 @@ export const About = () => {
           <div className="about-left">
             <p className="about-text">
               Hi, I'm Michelle. I'm a fourth-year Computer Science student at the University of Ottawa,
-              graduating in Spring 2027.
+              graduating in April 2028.
               <br></br>  
-              I'm currently on a 12-month work term working at Ericsson. I value curiosity, initiative, and clarity, and I enjoy
+              I'm currently working at Ericsson. I value curiosity, initiative, and clarity, and I enjoy
               presenting ideas and talking through systems in reviews and demos. Check out my{" "}
               <Link to="experience-component" smooth duration={500} className="inline-link">
                 experience

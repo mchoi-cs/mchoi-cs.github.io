@@ -78,6 +78,15 @@ export const Projects = () => {
 
         <div className="experience-list">
           <ProjectItem
+            title="Robotic Arm Simulator"
+            blurb="Joint-space velocity teleop browser simulator for the UOR25 rover arm driving a rigged Blender armature with keyboard controls and telemetry feedback."
+            technologies="Three.js, React, TypeScript, Blender, WebGL"
+            link="https://github.com/mchoi-cs/robotic-arm-simulator"
+            date="2026"
+            imgSrc="/assets/robotic-arm-sim.png"
+            imgAlt="Robotic arm simulator screenshot"
+          />
+          <ProjectItem
             title="GoodKnight @ ChessHacks"
             blurb="training infrastructure and evaluation pipeline for a neural-network-based chess engine"
             technologies="python, pytorch, docker, aws"
