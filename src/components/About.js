@@ -11,9 +11,12 @@ export const About = () => {
             <p className="about-text">
               Hi, I'm Michelle. I'm a fourth-year Computer Science student at the University of Ottawa,
               graduating in April 2028.
-              <br></br>  
-              I'm currently working at Ericsson. I value curiosity, initiative, and clarity, and I enjoy
-              presenting ideas and talking through systems in reviews and demos. Check out my{" "}
+              <br></br><br></br>
+              I'm currently working at Ericsson. I approach engineering from first principles. While black-box abstractions are useful for managing scope in day-to-day work, I believe they should never limit how deeply you understand a system, especially in firmware and robotics, where subtle failures occur right at the hardware boundary.
+              <br></br><br></br>
+              I love programming because technology is the chariot that pulls human capability forward. Working directly with the implements, building the low-level controls, systems, and interfaces that bridge humans to machines, gives the clearest vantage point to solve real problems.
+              <br></br><br></br>
+              Check out my{" "}
               <Link to="experience-component" smooth duration={500} className="inline-link">
                 experience
               </Link>{" "}
@@ -21,7 +24,7 @@ export const About = () => {
               <Link to="projects-component" smooth duration={500} className="inline-link">
                 projects
               </Link>.
-              <br></br>
+              <br></br><br></br>
               Outside of work, I do hackathons, powerlift, and I've been learning to draw.
             </p>
 
