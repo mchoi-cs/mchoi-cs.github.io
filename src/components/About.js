@@ -25,7 +25,24 @@ export const About = () => {
                 projects
               </Link>.
               <br></br><br></br>
-              Outside of work, I do hackathons, powerlift, and I've been learning to draw.
+              Outside of work, I do hackathons, powerlift, and I've been learning to draw. You can see my visual studies on{" "}
+              <a
+                href="https://charminglines.vercel.app"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-link"
+              >
+                charminglines
+              </a>{" "}
+              and my gallery on{" "}
+              <a
+                href="https://michellechoi-art.vercel.app"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-link"
+              >
+                my art site
+              </a>.
             </p>
 
             <div className="about-drawingWrap">
